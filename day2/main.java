@@ -13,7 +13,7 @@ public class main {
                               .mapToLong(Long::parseLong)
                               .toArray();
             long invalidSum = 0;
-            /*
+            /* PART - 1
             for(int j = 0; j < numbers.length; j += 2) {
                 System.out.println("Checking range: " + numbers[j] + " to " + numbers[j + 1]);
                 for(long i = numbers[j]; i <= numbers[j + 1]; i++) {
